@@ -58,10 +58,11 @@
 
 .section {
   background-color: grey;
-  height: 10000px;
+  height: 750px;
   text-align: center;
   overflow: hidden;
 }
+
 
 .section h2 {
   margin-top: 0;
@@ -79,9 +80,18 @@
   font-weight: 500;
 }
 
+.col-sm-6{
+  margin-bottom: 10px;
+}
+
 @media (max-width: 470px) {
   .section {
     margin-left: 50px;
     margin-right: 50px;
   }
+}
+
+.link{
+  color:blue;
+  text-align: left;
 }
